@@ -70,6 +70,12 @@ Select an item and:
 The image path is stored relative to the JSON file, so layouts are portable as long as
 the image stays in the same relative location.
 
+### 8. Print the layout
+
+**Ctrl+P** or **File → Print Layout…** renders the floor plan and all furniture onto a
+single Letter-size page, scaled to fit, and sends it to the default printer. Requires an
+image to be loaded and the scale to be set. Printing is only supported on Windows.
+
 ## Keyboard Shortcuts
 
 | Key | Action |
@@ -78,6 +84,7 @@ the image stays in the same relative location.
 | Delete | Delete selected item |
 | Ctrl+S | Save layout |
 | Ctrl+O | Open layout |
+| Ctrl+P | Print layout |
 | Shift+Scroll | Free-rotate selected item (5° increments) |
 | Scroll wheel | Scroll canvas vertically |
 
@@ -91,5 +98,6 @@ FurnitureLayout/
 ├── furniture.py      # FurnitureItem dataclass and rotation geometry
 ├── dialogs.py        # Scale, Add, and Edit dialogs
 ├── layout_manager.py # JSON save/load
+├── print_layout.py   # Render layout to a single page and send to printer
 └── requirements.txt
 ```

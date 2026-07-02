@@ -29,6 +29,7 @@ pip install -r requirements.txt   # Only dependency: Pillow
 | `furniture.py` | `FurnitureItem` dataclass + `corners(scale)` / `flat_corners(scale)` rotation geometry |
 | `dialogs.py` | `ScaleDialog`, `AddFurnitureDialog`, `EditFurnitureDialog` (all `tk.Toplevel`) |
 | `layout_manager.py` | `save_layout()` / `load_layout()` — JSON serialization |
+| `print_layout.py` | `render_layout_image()` / `print_layout()` — render the floor plan + furniture to a single printable page and send it to the default printer |
 
 ## Key Design Decisions
 
@@ -46,6 +47,12 @@ delete/recreate, so z-order is preserved.
 
 **Drag**: delta-from-start approach (`new_pos = start_center + (current_mouse - start_mouse)`)
 prevents floating-point drift. Center is clamped to image bounds.
+
+**Printing**: `print_layout.render_layout_image()` re-renders the floor plan and furniture
+with Pillow (not a canvas screenshot) onto a fixed US Letter page (150 DPI, 0.5" margins),
+computing a single `orig_px_to_page_px` factor so the floor image and furniture overlay
+stay in sync. The page is saved to a temp PNG and handed to the OS via
+`os.startfile(path, "print")` — Windows-only, no extra dependencies beyond Pillow.
 
 **Hit detection**: `canvas.find_overlapping(cx±4, cy±4)` returns canvas item IDs; their tags
 are checked against `FurnitureItem.id` values (UUIDs). Iterating in reverse gives the topmost item.
