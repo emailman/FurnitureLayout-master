@@ -1,0 +1,277 @@
+{
+  "version": 1,
+  "image_path": "FloorPlan1.png",
+  "scale_px_per_in": 2.9,
+  "furniture": [
+    {
+      "id": "e8dbc529-a85e-45f3-a1d4-a9a146313b5f",
+      "name": "File Cabinet",
+      "width_in": 30.0,
+      "height_in": 20.0,
+      "x": 597.0,
+      "y": 313.0,
+      "angle_deg": 270.0,
+      "color": "#A8D8EA"
+    },
+    {
+      "id": "d7843c22-424a-4bb4-974f-2508df686738",
+      "name": "Desk",
+      "width_in": 44.0,
+      "height_in": 20.0,
+      "x": 150.0,
+      "y": 383.0,
+      "angle_deg": 270.0,
+      "color": "#A8D8EA"
+    },
+    {
+      "id": "720d9d19-38cb-4279-9ef3-214bc681c4a4",
+      "name": "Trundle Bed",
+      "width_in": 84.0,
+      "height_in": 42.0,
+      "x": 346.0,
+      "y": 256.0,
+      "angle_deg": 180.0,
+      "color": "#AA96DA"
+    },
+    {
+      "id": "f428042b-cfec-429f-886d-f6f914a61658",
+      "name": "TV Cabinet",
+      "width_in": 72.0,
+      "height_in": 16.0,
+      "x": 1057.0,
+      "y": 471.0,
+      "angle_deg": 90.0,
+      "color": "#FCBAD3"
+    },
+    {
+      "id": "fe688312-61f3-4534-a567-53bbc9d27f94",
+      "name": "Sofa",
+      "width_in": 55.0,
+      "height_in": 37.0,
+      "x": 702.0,
+      "y": 515.0,
+      "angle_deg": 90.0,
+      "color": "#FFFFD2"
+    },
+    {
+      "id": "9588ab7f-7490-4685-bae2-d179ecf8ac09",
+      "name": "Recliner",
+      "width_in": 30.0,
+      "height_in": 30.0,
+      "x": 882.0,
+      "y": 372.0,
+      "angle_deg": 90.0,
+      "color": "#FFD700"
+    },
+    {
+      "id": "a97298f9-9164-4676-a46c-629c34046ba6",
+      "name": "Bird Cage",
+      "width_in": 38.0,
+      "height_in": 29.0,
+      "x": 692.0,
+      "y": 360.0,
+      "angle_deg": 90.0,
+      "color": "#C8A2C8"
+    },
+    {
+      "id": "47ebcb9f-5558-42cb-9d5b-faee990efb19",
+      "name": "Computer",
+      "width_in": 7.5,
+      "height_in": 17.5,
+      "x": 147.0,
+      "y": 473.0,
+      "angle_deg": 90.0,
+      "color": "#A8D8EA"
+    },
+    {
+      "id": "a5d5cb89-6dae-455f-a314-250bdf155be7",
+      "name": "Shredder",
+      "width_in": 10.0,
+      "height_in": 15.0,
+      "x": 607.0,
+      "y": 220.0,
+      "angle_deg": 0.0,
+      "color": "#AA96DA"
+    },
+    {
+      "id": "12d3c5eb-2fc2-4d24-b6a0-6b0f8d17e121",
+      "name": "Printer",
+      "width_in": 16.0,
+      "height_in": 19.0,
+      "x": 144.0,
+      "y": 524.0,
+      "angle_deg": 0.0,
+      "color": "#FCBAD3"
+    },
+    {
+      "id": "0913e4f7-27d9-4a96-af9c-e0ec4729e694",
+      "name": "Queen Bed",
+      "width_in": 88.0,
+      "height_in": 64.0,
+      "x": 1413.0,
+      "y": 461.0,
+      "angle_deg": 0.0,
+      "color": "#FFFFD2"
+    },
+    {
+      "id": "d13e2ae9-52e0-4a6a-a2af-b785cd3403f5",
+      "name": "Dresser",
+      "width_in": 64.0,
+      "height_in": 18.0,
+      "x": 1273.0,
+      "y": 225.0,
+      "angle_deg": 180.0,
+      "color": "#B5EAD7"
+    },
+    {
+      "id": "a6a38a41-6843-4210-9482-49d595123d6d",
+      "name": "End Table",
+      "width_in": 28.0,
+      "height_in": 18.0,
+      "x": 1514.0,
+      "y": 325.0,
+      "angle_deg": 270.0,
+      "color": "#FFD700"
+    },
+    {
+      "id": "97fba940-d836-4b91-b618-c2a8b56443e8",
+      "name": "End Table",
+      "width_in": 28.0,
+      "height_in": 18.0,
+      "x": 1512.0,
+      "y": 597.0,
+      "angle_deg": 270.0,
+      "color": "#C8A2C8"
+    },
+    {
+      "id": "20772c5d-d136-45c9-9ea9-7d5515242f14",
+      "name": "Sm Desk",
+      "width_in": 40.0,
+      "height_in": 19.0,
+      "x": 311.0,
+      "y": 521.0,
+      "angle_deg": 0.0,
+      "color": "#98D8C8"
+    },
+    {
+      "id": "af9c528b-683d-4564-b320-3726b8acd168",
+      "name": "DG Bed",
+      "width_in": 39.0,
+      "height_in": 75.0,
+      "x": 280.0,
+      "y": 864.0,
+      "angle_deg": 90.0,
+      "color": "#A8D8EA"
+    },
+    {
+      "id": "335b96cb-b3b9-43ca-a1c1-c72550f53d2e",
+      "name": "DG Recliner",
+      "width_in": 30.0,
+      "height_in": 30.0,
+      "x": 164.0,
+      "y": 1110.0,
+      "angle_deg": 0.0,
+      "color": "#AA96DA"
+    },
+    {
+      "id": "ad75925b-1483-49d2-8380-e84c2a738fd7",
+      "name": "DG Dresser",
+      "width_in": 30.0,
+      "height_in": 20.0,
+      "x": 483.0,
+      "y": 1124.0,
+      "angle_deg": 0.0,
+      "color": "#FCBAD3"
+    },
+    {
+      "id": "9b905e2d-7220-48dd-b928-1424c6bd5428",
+      "name": "DG TV Table",
+      "width_in": 16.0,
+      "height_in": 20.0,
+      "x": 147.0,
+      "y": 1004.0,
+      "angle_deg": 0.0,
+      "color": "#FFFFD2"
+    },
+    {
+      "id": "93c6c71f-7f01-4107-a843-dd7df1eb5d2b",
+      "name": "DG Bookshelf",
+      "width_in": 26.0,
+      "height_in": 20.0,
+      "x": 324.0,
+      "y": 1126.0,
+      "angle_deg": 0.0,
+      "color": "#B5EAD7"
+    },
+    {
+      "id": "a688b9dc-7dd5-4a2c-a87c-7ae5357cb7b3",
+      "name": "DG CD Rack",
+      "width_in": 15.0,
+      "height_in": 12.0,
+      "x": 604.0,
+      "y": 891.0,
+      "angle_deg": 90.0,
+      "color": "#FFD700"
+    },
+    {
+      "id": "bf048ba9-58d7-4f91-b9ff-5d689cd458da",
+      "name": "Ikea Table",
+      "width_in": 48.0,
+      "height_in": 36.0,
+      "x": 794.0,
+      "y": 724.0,
+      "angle_deg": 0.0,
+      "color": "#C8A2C8"
+    },
+    {
+      "id": "74e5bcc9-2b90-4e88-b217-beb6780981da",
+      "name": "Ikea Chair",
+      "width_in": 24.0,
+      "height_in": 24.0,
+      "x": 683.0,
+      "y": 720.0,
+      "angle_deg": 0.0,
+      "color": "#98D8C8"
+    },
+    {
+      "id": "e98b2c03-f3fc-4bc2-a465-5cc07bb05551",
+      "name": "Ikea Chair",
+      "width_in": 24.0,
+      "height_in": 24.0,
+      "x": 902.0,
+      "y": 720.0,
+      "angle_deg": 0.0,
+      "color": "#F7DC6F"
+    },
+    {
+      "id": "5d2143e3-d0d6-4e57-ad63-0c1f77b21c8a",
+      "name": "Ikea Chair",
+      "width_in": 24.0,
+      "height_in": 24.0,
+      "x": 795.0,
+      "y": 652.0,
+      "angle_deg": 0.0,
+      "color": "#A9CCE3"
+    },
+    {
+      "id": "2720170a-6e63-4e2e-be42-e9345f406aa7",
+      "name": "Bench",
+      "width_in": 36.0,
+      "height_in": 12.0,
+      "x": 1267.0,
+      "y": 458.0,
+      "angle_deg": 90.0,
+      "color": "#A3E4D7"
+    },
+    {
+      "id": "f059298c-2835-4add-9294-9359e47fd47f",
+      "name": "Bookcase",
+      "width_in": 36.0,
+      "height_in": 12.0,
+      "x": 1452.0,
+      "y": 223.0,
+      "angle_deg": 0.0,
+      "color": "#F9E79F"
+    }
+  ]
+}
